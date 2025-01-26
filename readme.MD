@@ -1,4 +1,18 @@
-## Story Generator (powered by AI)
+# Story Generator (Powered by AI)
+
+### **Descrição do Projeto**
+O Story Generator usa LLM pra gerar histórias criativas a partir das respostas do usuário a determinadas perguntas.
+
+---
+
+### **Instruções de Execução**
+
+1. Clone o repositório.
+2. É recomendado rodar o código com o Python 3.12. Outras versões podem funcionar, mas não há garantia de compatibilidade.
+3. Crie um virtual environment da forma que preferir e instale as dependências com o comando `pip install -r requirements.txt`.
+4. Na raiz do projeto, crie um arquivo .env e defina as variáveis `API_KEY` e `LLM_MODEL`.
+5. Abra um terminal na raiz do projeto, entre no virtual environment e execute o código com o comando `python main.py`.
+---
 
 ### **Premissas assumidas no projeto:**
 
@@ -44,7 +58,7 @@
 
 ---
 
-### **Limitações do Código**
+### **Limitações**
 
 1. **Ausência de validação de entrada do usuário:**
    - Atualmente, o código não verifica se o usuário fornece respostas válidas (ex.: entradas vazias, caracteres especiais ou respostas muito longas). Isso pode gerar histórias incoerentes ou erros no processo.
@@ -110,8 +124,11 @@
 10. **Personalizar perguntas:**
     - Atualmente as perguntas são fixas. Seria ótimo se o usuário conseguisse criar as próprias perguntas e também definir a quantidade de perguntas.
 
----
 
+<br>
+
+
+# Design de Arquitetura para a Pupila
 ### **Decisões Arquiteturais e Justificativas**
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif;">
